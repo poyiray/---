@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\动态规划">
+      <UniqueIdentifier>{354cd30f-7c90-4f6b-bdac-569b7e1ef8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\走方格">
+      <UniqueIdentifier>{9f1b8322-008e-4699-9dc5-d616b6f5c168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\路径压缩">
+      <UniqueIdentifier>{64ef96cf-33e2-4dd8-b250-c0a8862d8c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\上升子序列">
+      <UniqueIdentifier>{e65aeacd-6b8e-496b-b852-9ea80a900021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\单调队列">
+      <UniqueIdentifier>{6d251578-cae2-4a72-9fde-c3fb32cd8aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\背包">
+      <UniqueIdentifier>{91dfa53b-fe1c-4d63-b4e3-7a4964acd283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序">
+      <UniqueIdentifier>{c868ecc3-6da4-4c66-baad-2257f374ec8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\模拟">
+      <UniqueIdentifier>{fc06767d-6d38-4727-8866-5b0125471946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\搜索">
+      <UniqueIdentifier>{cb754842-17c3-4d79-99de-180b849d2f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二分">
+      <UniqueIdentifier>{846b055b-66d8-43db-bda9-aebd37586bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\树形背包">
+      <UniqueIdentifier>{8f37b1b6-731b-4b2e-9a72-a7ddc2120c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二叉树">
+      <UniqueIdentifier>{ae939e67-c85c-4087-b7cc-36325e2234cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\博弈论">
+      <UniqueIdentifier>{e24b7562-69a3-4a31-8ec3-33929c7cf9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\栈">
+      <UniqueIdentifier>{273c6e5f-0314-4dfe-bd78-53b333eb81ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\最大子段和">
+      <UniqueIdentifier>{84fc47d7-9607-430d-8b66-0ef51ea4ec7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论">
+      <UniqueIdentifier>{898d9a89-32e1-4d9f-b606-7d4eb6e3af4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\拓扑图">
+      <UniqueIdentifier>{e7b5ee02-a03b-4b76-9ead-8a041c9c5064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数论">
+      <UniqueIdentifier>{7bc7e157-7531-4657-a60f-3409f7e2cfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划\状态机">
+      <UniqueIdentifier>{19d42387-d923-4645-9e40-8e338d3efac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\贪心">
+      <UniqueIdentifier>{a7fea684-e456-4c5c-b51e-57b586d53b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\哈希">
+      <UniqueIdentifier>{1f958973-4085-45e3-b196-648adffdf072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\倍增+分治">
+      <UniqueIdentifier>{58b3f778-72af-4214-a349-a95a5ae276f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\前缀和">
+      <UniqueIdentifier>{ad407338-974e-4c6a-a244-4b17148068b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图论\最短路">
+      <UniqueIdentifier>{481669e1-63d6-44f5-80d4-6222b9cc43bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="方格取数.cpp">
+      <Filter>源文件\动态规划\走方格</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2005 提高组] 过河.cpp">
+      <Filter>源文件\动态规划\路径压缩</Filter>
+    </ClCompile>
+    <ClCompile Include="导弹防御系统.cpp">
+      <Filter>源文件\动态规划\上升子序列</Filter>
+    </ClCompile>
+    <ClCompile Include="模板.cpp">
+      <Filter>源文件\单调队列</Filter>
+    </ClCompile>
+    <ClCompile Include="多重背包.cpp">
+      <Filter>源文件\动态规划\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="背包问题求方案数.cpp">
+      <Filter>源文件\动态规划\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="背包问题求具体方案.cpp">
+      <Filter>源文件\动态规划\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="P1142 轰炸.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2012 提高组] 国王游戏.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2012 提高组] Vigenère 密码.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2012 普及组] 质因数分解.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="「ALFR Round 3」A 调皮的学生.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="ALFR Round 3」B Swap and Delete.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2012 普及组] 文化之旅.cpp">
+      <Filter>源文件\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="[CSP-J 2024] 扑克牌.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[CSP-J 2024] 地图探险.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[CSP-J 2024] 小木棍.cpp">
+      <Filter>源文件\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="Preparing for the Olympiad.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="Journey.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="Preparing for the Exam.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="Counting Pairs.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2010 普及组] 导弹拦截.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="有依赖的背包问题.cpp">
+      <Filter>源文件\动态规划\树形背包</Filter>
+    </ClCompile>
+    <ClCompile Include="金明的预算方案.cpp">
+      <Filter>源文件\动态规划\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2004 普及组] 花生采摘.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2004 普及组] FBI 树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2007 普及组] 奖学金.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2007 普及组] 纪念品分组.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2010 普及组] 数字统计.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2010 普及组] 接水问题.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2010 普及组] 三国游戏.cpp">
+      <Filter>源文件\博弈论</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2011 普及组] 数字反转.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2011 普及组] 统计单词数.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2011 普及组] 瑞士轮.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2011 普及组] 表达式的值.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2013 普及组] 表达式求值.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP1997 普及组] 棋盘问题.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2013 普及组] 计数问题.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2013 普及组] 小朋友的数字.cpp">
+      <Filter>源文件\动态规划\最大子段和</Filter>
+    </ClCompile>
+    <ClCompile Include="能量石.cpp">
+      <Filter>源文件\动态规划\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2013 普及组] 车站分级.cpp">
+      <Filter>源文件\图论\拓扑图</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2016 普及组] 海港.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2014 普及组] 比例简化.cpp">
+      <Filter>源文件\数论</Filter>
+    </ClCompile>
+    <ClCompile Include="大盗阿福.cpp">
+      <Filter>源文件\动态规划\状态机</Filter>
+    </ClCompile>
+    <ClCompile Include="股票买卖 IV.cpp">
+      <Filter>源文件\动态规划\状态机</Filter>
+    </ClCompile>
+    <ClCompile Include="股票买卖 V.cpp">
+      <Filter>源文件\动态规划\状态机</Filter>
+    </ClCompile>
+    <ClCompile Include="[CSP-S 2024] 决斗.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2009 普及组] 道路游戏.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2009 提高组] 潜伏者.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2012 提高组] 借教室.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2004 提高组] 合并果子.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2007 提高组] 统计数字.cpp">
+      <Filter>源文件\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="P1718 图形复原.cpp">
+      <Filter>源文件\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="合并排序.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序-逆序对.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="最大子段和.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="树状数组.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="差分.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="前缀和.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="最大加权矩形.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="st表.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="P1816 忠诚.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2012 提高组] 同余方程.cpp">
+      <Filter>源文件\数论</Filter>
+    </ClCompile>
+    <ClCompile Include="分背包问题.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="排队接水.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="陶陶摘苹果（升级版）.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2018 提高组] 铺设道路.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="[USACO1.3] 混合牛奶 Mixing Milk.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="跳跳！.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2724 P2 - Pizza Party.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="[USACO09OCT] Heat Wave G.cpp">
+      <Filter>源文件\图论\最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="P1342 请柬.cpp">
+      <Filter>源文件\图论\最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="P1144 最短路计数.cpp">
+      <Filter>源文件\图论\最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2014 普及组] 珠心算测验.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2014 普及组] 螺旋矩阵.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2014 普及组] 子矩阵.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2015 普及组] 金币.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="求第 k 小的数.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="选举学生会.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP2015 普及组] 求和.cpp">
+      <Filter>源文件\前缀和</Filter>
+    </ClCompile>
+    <ClCompile Include="单源最短路径（标准版）.cpp">
+      <Filter>源文件\图论\最短路</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

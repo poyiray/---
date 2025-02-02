@@ -333,5 +333,44 @@
     <ClCompile Include="单源最短路径（标准版）.cpp">
       <Filter>源文件\图论\最短路</Filter>
     </ClCompile>
+    <ClCompile Include="Fibonacciness.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="Farmer John%27s Card Game.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="Game of Mathletes.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtract Min Sort.cpp">
+      <Filter>源文件\贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="CCO %2705 P5 - Segments.cpp">
+      <Filter>源文件\动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP 2017 普及组] 棋盘.cpp">
+      <Filter>源文件\图论\最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP 2017 普及组] 图书管理员.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP 2018 普及组] 龙虎斗.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="[CCC 2021 S5] Math Homework.cpp">
+      <Filter>源文件\倍增+分治</Filter>
+    </ClCompile>
+    <ClCompile Include="A-B 数对.cpp">
+      <Filter>源文件\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="[JLOI2011] 不重复数字.cpp">
+      <Filter>源文件\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="[COCI 2010] KUTEVI.cpp">
+      <Filter>源文件\哈希</Filter>
+    </ClCompile>
+    <ClCompile Include="[USACO24DEC] It%27s Mooin%27 Time B.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

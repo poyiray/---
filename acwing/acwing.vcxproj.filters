@@ -85,6 +85,9 @@
     <Filter Include="源文件\图论\最短路">
       <UniqueIdentifier>{481669e1-63d6-44f5-80d4-6222b9cc43bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\图论\负环">
+      <UniqueIdentifier>{b57ffe61-3e6d-4c1e-8223-4037cd53b6a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="方格取数.cpp">
@@ -332,6 +335,9 @@
     </ClCompile>
     <ClCompile Include="单源最短路径（标准版）.cpp">
       <Filter>源文件\图论\最短路</Filter>
+    </ClCompile>
+    <ClCompile Include="负环【模板】.cpp">
+      <Filter>源文件\图论\负环</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

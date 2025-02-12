@@ -88,6 +88,9 @@
     <Filter Include="源文件\图论\负环">
       <UniqueIdentifier>{b57ffe61-3e6d-4c1e-8223-4037cd53b6a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\图论\欧拉图">
+      <UniqueIdentifier>{bc0dbf60-5969-4f5a-a8fa-62a76ec6caff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="方格取数.cpp">
@@ -338,6 +341,36 @@
     </ClCompile>
     <ClCompile Include="负环【模板】.cpp">
       <Filter>源文件\图论\负环</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP 2008 提高组] 笨小猴.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="查找.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="[COCI 2012] EKO.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="烦恼的高考志愿.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="木材加工.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="[NOIP 2015 提高组] 跳石头.cpp">
+      <Filter>源文件\二分</Filter>
+    </ClCompile>
+    <ClCompile Include="杂务.cpp">
+      <Filter>源文件\图论\拓扑图</Filter>
+    </ClCompile>
+    <ClCompile Include="最大食物链计数.cpp">
+      <Filter>源文件\图论\拓扑图</Filter>
+    </ClCompile>
+    <ClCompile Include="最长路.cpp">
+      <Filter>源文件\图论\拓扑图</Filter>
+    </ClCompile>
+    <ClCompile Include="词链.cpp">
+      <Filter>源文件\图论\欧拉图</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
